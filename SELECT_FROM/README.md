@@ -5,7 +5,8 @@ The `SELECT` statement is used to specify the attributes to be returned by the q
 
 ## Example Queries and Explanations
 
-#Example 1 Specific columns:  SELECT all columns 
+
+#Example 1 Specific columns:  SELECT all columns: 
 ``` sql
 SELECT *
 FROM aapl_historical_stock_price;
@@ -24,7 +25,7 @@ Explanation:
 -- Here, SELECT date, close, volume retrieves only the specific columns
 
 
-#Example 3 Aliases for specific column names
+#Example 3 Aliases for specific column names:
 ```sql
 SELECT date AS "Trading Date", close AS "Closing Price"
 FROM aapl_historical_stock_price;
